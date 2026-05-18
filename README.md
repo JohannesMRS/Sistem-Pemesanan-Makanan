@@ -29,7 +29,9 @@ Sebelum menjalankan proyek ini, pastikan di device anda sudah ada beberapa kompo
 * **Laragon / Xampp**
 
 Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah ini:
-* [Oracle](https://www-oracle-com.translate.goog/database/free/get-started/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc)
+* [Oracle Database](https://www-oracle-com.translate.goog/database/free/get-started/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc)
+* [Node.js](https://nodejs.org/en/download)
+* [Composer](https://getcomposer.org/download/)
 
 
 
