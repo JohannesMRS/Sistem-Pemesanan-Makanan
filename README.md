@@ -29,7 +29,7 @@ Sebelum menjalankan proyek ini, pastikan di device anda sudah ada beberapa kompo
 * **Laragon / Xampp**
 
 Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah ini:
-* Silakan kunjungi <a href="https://github.com" target="_blank">GitHub</a> untuk melihat proyek lainnya.
+Silakan kunjungi <a href="https://github.com" target="_blank">GitHub</a> untuk melihat proyek lainnya.
 * [Node.js](https://nodejs.org/en/download)
 * [Composer](https://getcomposer.org/download/)
 
