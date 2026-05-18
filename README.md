@@ -42,11 +42,11 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 
 
 #### 📁 Langkah-langkah instalasi
-```Bash
+
+
+```bash
 git clone https://github/JohannesMRS/Sistem-Pemesanan-Makanan.git
 cd Sistem-Pemesanan-Makanan
-
-
 
 
 
