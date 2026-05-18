@@ -41,6 +41,11 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 * [PHP](https://www.php.net/downloads.php)
 
 
+#### 📁 Langkah-langkah instalasi
+```Bash
+git clone https://github/JohannesMRS/Sistem-Pemesanan-Makanan.git
+cd Sistem-Pemesanan-Makanan
+
 
 
 
