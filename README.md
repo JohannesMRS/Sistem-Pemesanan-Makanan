@@ -46,12 +46,16 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 
 ```bash
 
+# Clone Repository Ini
 git clone https://github/JohannesMRS/Sistem-Pemesanan-Makanan.git
+
+# Pindah ke Folder Repository
 cd Sistem-Pemesanan-Makanan
 
 # Install Package PHP Untuk Laravel
 composer Install
- #Install Node.js
+
+#Install Node.js
 npm install
 
 
