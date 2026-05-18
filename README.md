@@ -1,4 +1,4 @@
-#POS Kasir Digital
+# POS Kasir Digital
 
 Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern
 
