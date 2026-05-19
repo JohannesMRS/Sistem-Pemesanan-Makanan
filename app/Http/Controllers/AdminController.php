@@ -23,7 +23,7 @@ class AdminController extends Controller
         ->groupBy('MENU.NAMA_MENU')
         ->first();
 
-        $transaksiTerbaru = DB::table('PESANAN')->orderBy('TANGGAL_JAM', 'desc')->limit(5)->get();
+        $transaksiTerbaru = DB::table('PESANAN')->orderBy('TANGGAL_JAM', 'desc')->paginate(10);
         return view('admin.dashboard', compact('dataPegawai', 'omsetHariIni','totalPesanan' ,'menuTerlaris', 'transaksiTerbaru'));
     }
 

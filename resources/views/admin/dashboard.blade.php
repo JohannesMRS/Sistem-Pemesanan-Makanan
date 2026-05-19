@@ -71,6 +71,10 @@
                 </tbody>
             </table>
 
+            <div class = "mt-5">
+                {{ $transaksiTerbaru -> links() }}
+            </div>
+
         </div>
 
 

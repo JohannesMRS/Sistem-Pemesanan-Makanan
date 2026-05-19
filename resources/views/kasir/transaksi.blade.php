@@ -78,7 +78,7 @@ function selesaikanTransaksi() {
     const total = {{ $total }};
 
     if (isNaN(bayar) || bayar < total) {
-        alert("Waduh Partner, uang bayarnya kurang!");
+        alert("Nominal Uang Kurang");
         return;
     }
 

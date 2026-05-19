@@ -91,7 +91,7 @@
     function closeModal() { document.getElementById('modalMenu').classList.add('hidden'); }
 </script>
 
-<div class = "w-11/12 mx-auto mt-10">
+<div class = " mt-10">
     {{ $dataMenu->links() }}
 </div>
 @endsection

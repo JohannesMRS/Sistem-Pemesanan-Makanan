@@ -32,7 +32,7 @@
     </form>
 
     <div class="mt-6 text-center text-xs text-gray-400">
-        &copy; 2026 Resto UMKM - Managed with Oracle Database
+        &copy; MasBon - Managed By Johannes
     </div>
 </div>
 @endsection
