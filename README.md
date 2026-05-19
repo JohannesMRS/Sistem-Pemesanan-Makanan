@@ -43,6 +43,7 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 
 #### 📁 Langkah-langkah instalasi
 
+* Jalankan Perintah Ini Di Terminal
 
 ```bash
 
@@ -57,6 +58,20 @@ composer Install
 
 #Install Node.js
 npm install
+
+# Install Package Yajra untuk Support Oracle Database
+composer require yajra/laravel-oci8:^13
+
+```
+* Modifikasi Database Di File .env
+```bash
+
+DB_CONNECTION = oracle
+DB_HOST = localhost
+DB_PORT = 1521
+DB_DATABASE = xe / free / freepdb1
+DB_USERNAME = username_database_oracle_anda
+DB_PASSOWRD = passowrd_database_oracle_anda
 
 
 
