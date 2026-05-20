@@ -22,7 +22,7 @@ Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi mo
 
 Sebelum menjalankan proyek ini, pastikan di device anda sudah ada beberapa komponen berikut:
 
-### Backend & Frontend
+### Tools
 * **PHP:** `>= 8.3`
 * **Composer**
 * **Node.js & NPM**
