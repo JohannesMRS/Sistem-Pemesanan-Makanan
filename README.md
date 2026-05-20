@@ -1,14 +1,24 @@
 # POS Kasir Digital
 
-Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern
+Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern.
 
-## 🚀 Fitur Utama
+## Alur Sistem
+* Customer datang memilih nomor pesanan (Jika Dine In)
+* Kasir mencatat pesanan
+* Customer memilih layanan (Dine In atau Take Away) dan metode bayar (Transfer atau Tunai)
+* Kasir memasukkan data customer dan memproses pembayaran
+* Kasir memasukkan nominal uang dan kembalian dari pesannan customer
+* Setelahnya kasir mencetak resi dan menyelesaikan proses pemesanan
+* Data pesanan customer tadi masuk ke database
+* Admin kemudian mengelola data pesanan tadi di halaman admin tersendiri
+
+## Fitur Utama
 * **Autentikasi Pegawai:** Login dan manajemen sesi yang aman
 * **Halaman Manajemen Menu:** Menampilkan UI menu makanan dan minuman
 * **Pencatatan Pesanan Realtime:** Menampilkan sidebar untuk mencatat pesanan pelanggan
 *  **Halaman Dashboard Admin:** Halaman untuk pencatatan laporan pemasukan, jumlah pelanggan, laporan harian
 
-## 🧰 Tech Stack & Prasyarat
+## Tech Stack & Prasyarat
 
 Sebelum menjalankan proyek ini, pastikan di device anda sudah ada beberapa komponen berikut:
 
@@ -41,7 +51,7 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 * [PHP](https://www.php.net/downloads.php)
 
 
-#### 📁 Langkah-langkah instalasi
+#### Langkah-langkah instalasi
 
 * Jalankan Perintah Ini Di Terminal
 
