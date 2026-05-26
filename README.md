@@ -65,6 +65,12 @@ npm install
 # Install Package Yajra untuk Support Oracle Database
 composer require yajra/laravel-oci8:^13
 
+# Jalankan Migrasi
+php artisan migrate
+
+# Melihat Tampilan
+php artisan serve
+
 ```
 * Modifikasi Database Di File .env
 ```bash
