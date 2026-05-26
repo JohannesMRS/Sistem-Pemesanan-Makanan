@@ -80,6 +80,11 @@ DB_PASSOWRD = passowrd_database_oracle_anda
 
 #### Tampilan Sistem
 * Halaman Kasir
+![Tampilan_kasir](https://github.com/JohannesMRS/Sistem-Pemesanan-Makanan/blob/master/public/img/UI/kasir.png)
+
+![Proses Pembayaran](https://github.com/JohannesMRS/Sistem-Pemesanan-Makanan/blob/master/public/img/UI/proses_bayar_kasir.png)
+
+![Detail_Pesanan](https://github.com/JohannesMRS/Sistem-Pemesanan-Makanan/blob/master/public/img/UI/detail_pesanan_kasir.png)
 
 
 
