@@ -76,6 +76,11 @@ DB_DATABASE = xe / free / freepdb1
 DB_USERNAME = username_database_oracle_anda
 DB_PASSOWRD = passowrd_database_oracle_anda
 
+```
+
+#### Tampilan Sistem
+* Halaman Kasir
+
 
 
 
