@@ -1,18 +1,21 @@
 # POS Kasir Digital
 
-Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern
+Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern.
 
-## 🚀 Fitur Utama
+## Alur Sistem
+![Flowchart](https://github.com/JohannesMRS/Sistem-Pemesanan-Makanan/blob/master/public/img/sistem_pemesanan_makanan.png)
+
+## Fitur Utama
 * **Autentikasi Pegawai:** Login dan manajemen sesi yang aman
 * **Halaman Manajemen Menu:** Menampilkan UI menu makanan dan minuman
 * **Pencatatan Pesanan Realtime:** Menampilkan sidebar untuk mencatat pesanan pelanggan
 *  **Halaman Dashboard Admin:** Halaman untuk pencatatan laporan pemasukan, jumlah pelanggan, laporan harian
 
-## 🧰 Tech Stack & Prasyarat
+## Tech Stack & Prasyarat
 
 Sebelum menjalankan proyek ini, pastikan di device anda sudah ada beberapa komponen berikut:
 
-### Backend & Frontend
+### Tools
 * **PHP:** `>= 8.3`
 * **Composer**
 * **Node.js & NPM**
@@ -41,7 +44,7 @@ Jika belum ada kunjungi situs resmi dari tiap komponen yang belum ada dibawah in
 * [PHP](https://www.php.net/downloads.php)
 
 
-#### 📁 Langkah-langkah instalasi
+#### Langkah-langkah instalasi
 
 * Jalankan Perintah Ini Di Terminal
 
@@ -72,6 +75,11 @@ DB_PORT = 1521
 DB_DATABASE = xe / free / freepdb1
 DB_USERNAME = username_database_oracle_anda
 DB_PASSOWRD = passowrd_database_oracle_anda
+
+```
+
+#### Tampilan Sistem
+* Halaman Kasir
 
 
 
