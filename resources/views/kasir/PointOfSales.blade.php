@@ -104,15 +104,15 @@
         <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Detail Transaksi</h3>
         <div class="mb-6">
             <label class="block text-sm font-semibold text-gray-600 mb-2">Nomor Meja</label>
-            <input type="number" id="inputNomorMeja" placeholder="Masukkan nomor meja (Contoh: 5)"
-                   class="w-full border-2 border-gray-200 rounded-[7px] p-3 focus:border-orange-500 outline-none font-bold text-lg">
+            <input type="number" id="inputNomorMeja" placeholder="Masukkan nomor Meja"
+                   class="w-full border-2 border-gray-200 rounded-[7px] p-3 focus:border-orange-500 outline-none text-lg">
             <p class="text-xs text-gray-400 mt-1">*Input 0 atau kosong jika Take Away</p>
         </div>
         <div class="mb-6">
-            <label class="block text-sm font-semibold text-gray-600 mb-3">Tipe Pesanan</label>
+            <label class="block text-sm font-semibold  text-gray-600 mb-3">Tipe Pesanan</label>
             <div class="grid grid-cols-2 gap-4">
-                <button onclick="setTipe('Dine In')" id="btnDineIn" class="border-2 border-orange-500 bg-orange-50 text-orange-600 py-3 rounded-[7px] font-bold transition-all">Dine In</button>
-                <button onclick="setTipe('Take Away')" id="btnTakeAway" class="border-2 border-gray-200 py-3 rounded-[7px] font-bold text-gray-500 transition-all">Take Away</button>
+                <button onclick="setTipe('Dine In')" id="btnDineIn" class="border-2 border-orange-500 bg-orange-50 text-orange-600 py-3 rounded-[7px]  transition-all">Dine In</button>
+                <button onclick="setTipe('Take Away')" id="btnTakeAway" class="border-2 border-gray-200 py-3 rounded-[7px]  text-gray-500 transition-all">Take Away</button>
             </div>
         </div>
 
@@ -125,8 +125,8 @@
         </div>
 
         <div class="flex gap-3">
-            <button onclick="tutupModal()" class="flex-1 py-3 text-gray-500 font-bold">Batal</button>
-            <button onclick="konfirmasiKeCheckout()" class="flex-1 bg-orange-500 text-white py-3 rounded-[7px] font-bold shadow-lg shadow-orange-200">Lanjut ke Checkout</button>
+            <button onclick="tutupModal()" class="flex-1 py-3 text-gray-500 font-bold hover:text-gray-700">Batal</button>
+            <button onclick="konfirmasiKeCheckout()" class="flex-1 bg-orange-500 text-white py-3 rounded-[7px] font-bold shadow-lg shadow-orange-200 hover:bg-orange-700 hover:text-gray-200 duration-200">Lanjut ke Checkout</button>
         </div>
     </div>
 </div>
