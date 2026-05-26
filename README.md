@@ -3,14 +3,7 @@
 Aplikasi POS Kasir Digital berbasis web modern yang dibangun dengan teknologi modern.
 
 ## Alur Sistem
-* Customer datang memilih nomor pesanan (Jika Dine In)
-* Kasir mencatat pesanan
-* Customer memilih layanan (Dine In atau Take Away) dan metode bayar (Transfer atau Tunai)
-* Kasir memasukkan data customer dan memproses pembayaran
-* Kasir memasukkan nominal uang dan kembalian dari pesannan customer
-* Setelahnya kasir mencetak resi dan menyelesaikan proses pemesanan
-* Data pesanan customer tadi masuk ke database
-* Admin kemudian mengelola data pesanan tadi di halaman admin tersendiri
+![Flowchart](https://github.com/JohannesMRS/Sistem-Pemesanan-Makanan/blob/master/public/img/sistem_pemesanan_makanan.png)
 
 ## Fitur Utama
 * **Autentikasi Pegawai:** Login dan manajemen sesi yang aman
