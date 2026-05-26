@@ -3,7 +3,7 @@
 @section('content')
 <div class="flex w-full h-screen bg-gray-50 overflow-hidden font-sans">
 
-    <div class="p-6 overflow-y-auto">
+    <div class="p-6 w-full overflow-y-auto">
          <div class="mt-auto pb-6">
             <a href="#"
             onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
@@ -99,7 +99,7 @@
 
 
 
-<div id="modalOpsi" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+<div id="modalOpsi" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
     <div class="bg-white rounded-[7px] p-8 w-full max-w-md shadow-2xl transform transition-all">
         <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Detail Transaksi</h3>
         <div class="mb-6">
