@@ -12,8 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('menu', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->integer('id_menu')->primary()->nullable();
+            $table->foreignId('id_kategori')->constrained()->onDelete('cascade');
+            $table->string('nama_menu', 30);
+            $table->string('deskripsi', 100);
+            $table->integer('harga', 10);
+            $table->integer('stok_status', 1);
+            $table->string('gambar', 20);
         });
     }
 

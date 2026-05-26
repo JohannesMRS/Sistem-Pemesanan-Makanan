@@ -12,8 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('meja', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->integer('nomor_meja', 5)->primary();
+            $table->integer('kapasitas', 5);
+            $table->string('status_meja', 10);
         });
     }
 

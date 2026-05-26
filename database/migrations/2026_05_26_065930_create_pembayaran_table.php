@@ -12,8 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('pembayaran', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->integer('id_pesanan')->primary();
+            $table->string('metode_bayar', 10);
+            $table->integer('jumlah_bayar');
+            $table->integer('kembalian');
+            $table->timestamp('waktu_bayar', 6);
+            $table->foreignId('id_pembayaran')->nullable()->constrained()->onDelete('cascade');
         });
     }
 
